@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Lessons5</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./styles/style.css'>
+</head>
+
+<body>
+  <form style="display: flex; flex-direction: column; width: 300px;">
+    <label for="firstname">Firstname</label>
+    <input type="text" name="firstname" id="firstname" placeholder="Enter user firstname" required>
+    <br>
+
+    <label for="lasttname">Lastname</label>
+    <input type="text" name="lastname" id="lastname" placeholder="Enter user lastname" required>
+    <br>
+
+    <label for="role1">User role 1</label>
+    <input type="text" name="role" id="role" placeholder="Manager 1" required>
+    <br>
+
+    <label for="role2">User role 2</label>
+    <input type="text" name="rorole2le" id="role2" placeholder="Manager 2" required>
+    <br>
+
+    <label for="email">User email</label>
+    <input type="email" name="useremail" id="email" required>
+    <br>
+
+    <label for="password">User password</label>
+    <input type="password" name="user-password" id="password" required>
+    <br>
+
+    <label for="policy">Site policy 1</label>
+    <input type="checkbox" name="policy" id="policy1" required>
+    <br>
+
+    <label for="policy">Site policy 2</label>
+    <input type="checkbox" name="policy" id="policy2" checked>
+    <br>
+
+    <fieldset>
+         <legend>User city</legend>
+
+        <input type="radio" name="radio1" id="kyiv-city" value="Kyiv">
+        <label for="kyiv-city">Kyiv</label>
+
+        <input type="radio" name="radio1" id="dnipro-radio" value="Dnipro">
+        <label for="dnipro-radio">Dnipro</label>
+
+        <input type="radio" name="radio1" id="lviv-radio" value="Lviv">
+        <label for="lviv-radio">Lviv</label>
+    </fieldset>
+    <br>
+
+    <label for="user-role">Choose role</label>
+    <select id="user-role">
+        <option selected>Guest 1</option>
+        <option disabled>Guest 2</option>
+
+
+        <optgroup label="Developer">
+            <option>Developer 1</option>
+            <option>Developer 2</option>
+            <option>Developer 3</option>
+        </optgroup>
+
+        <optgroup label="Manager">
+            <option>Manager 1</option>
+            <option>Manager 2</option>
+            <option>Manager 3</option>
+        </optgroup>
+
+        <optgroup label="Admin">
+            <option disabled>Admin 1</option>
+            <option>Admin 2</option>
+            <option>Admin 3</option>
+        </optgroup>
+    </select>
+    <br>
+
+    <label for="file-upload">File upload</label>
+    <input type="file" name="user-avatar" id="user-avatar">
+    <br>
+
+
+    <button type="submit">Send</button>
+  </form>
+
+    <script src='./main.js'></script>
+</body>
+
+</html>
