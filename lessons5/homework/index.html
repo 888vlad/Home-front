@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Home work</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./styles/style.css'>
+</head>
+
+<body style="margin-left: 800px; margin-top: 50px;">
+    <form style="display: flex; flex-direction: column; width: 300px;">
+        <label for="Повне ім'я">Повне ім'я</label>
+        <input type="text" name="Повне ім'я" id="Повне ім'я" required>
+        <br>
+
+        <label for="Email">Email</label>
+        <input type="email" name="Email" id="Email" required>
+        <br>
+
+        <label for="Пароль">Пароль</label>
+        <input type="password" name="Пароль" id="Пароль" required>
+        <br>
+
+        <label for="Пароль ще раз">Пароль ще раз</label>
+        <input type="password" name="Пароль ще раз" id="Пароль ще раз" required>
+        <br>
+
+        <fieldset>
+
+            <legend>Стать</legend>
+
+            <input type="radio" name="Стать" id="Стать" value="Стать">
+            <label for="Стать">Чоловіча</label>
+        
+        <input type="radio" name="Стать" id="Стать1" value="Стать">
+        <label for="Стать">Жіноча</label>
+        <br>
+
+        </fieldset>
+        <br>
+
+        <label for="Вік">Вік</label>
+        <input type="number" name="Вік" id="Вік">
+        <br>
+
+        <select>
+            <option value="SE" hidden selected>Виберіть курс</option>
+
+            <legend>Курс</legend>
+         
+            <optgroup label="Курс">
+                <option>Front-End</option>
+                <option>Back-End</option>
+                <option>Project Management</option>
+                <option>QA Manual</option>
+            </optgroup>
+        </select>
+        <br>
+
+        <section>
+            <p>Повна адреса</p>
+            <textarea name="body" id="Повна адреса" cols="38" rows="5" placeholder="Країна, регіон, місто, селище, вулиця"></textarea>
+        </section>
+        <br>
+
+        <input type="checkbox" style="margin-left: -270px;" name="Погодження" id="Погодження" required>
+        <label for="Погодження" style="margin-left: 30px; margin-top: -23px;">Я погоджуюсь з обробкою персональних данних</label>
+        <br>
+
+        <button>Очистити форму</button>
+        <br>
+
+        <button>Зареєструватись</button>
+        
+
+    </form>
+    
+
+    <script src='main.js'></script>
+</body>
+
+</html>
