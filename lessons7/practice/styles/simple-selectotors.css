@@ -1,0 +1,24 @@
+/* universal */
+* {
+color: brown;
+}
+
+/* element-select */
+p {
+color: green;
+}
+
+/* class-select */
+.class1 {
+color: blueviolet;
+}
+
+/* id-select */
+#p1 {
+ color: blue;
+}
+
+/* Attribute-select */
+[href] {
+color: chocolate;
+}
