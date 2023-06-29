@@ -1,0 +1,21 @@
+
+*,
+*::after,
+*::before {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+:root {
+--transition-duration: 250ms;
+--regular-padding: 10px;
+--primary-color: gray;
+--primary-light-color: whitesmoke;
+--accent-color: #3f00ff;
+--wran-color: #c70039; 
+}
+
+body {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
