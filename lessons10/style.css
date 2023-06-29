@@ -1,0 +1,28 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.photography {
+display: grid;
+grid-template-columns: repeat(3, minmax(100px, 200px));
+grid-template-rows: repeat(3, minmax(100px, 200px));
+gap: 1.5rem;
+justify-content: center;
+padding: 1rem;
+background-color: whitesmoke;
+}
+
+.photography > img {
+width: 100%;
+}
+
+.photography>section:nth-child(2),
+.photography>section:nth-child(6) {
+grid-column: 2 / 4;
+}
+
+.photography>section:nth-child(3) {
+grid-column: 1 / 3;
+}
